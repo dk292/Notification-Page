@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Notifications page</title>
+    <script src="index.js" defer></script>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <header id="noti-container">
+        <div id="noti">
+          <h1>Notifications</h1>
+          <span id="num">3</span>
+        </div>
+        <h2 id="markAll">Mark all as read</h2>
+      </header>
+      <div class="container">
+        <div class="img-container">
+          <img src="../assets/images/avatar-mark-webber.webp" alt="" />
+        </div>
+        <div class="msg-container">
+          <h2 class="name">Mark Webber</h2>
+          <p>
+            reacted to your recent post
+            <strong>My first tournament today!</strong>
+          </p>
+          <div class="red-dot"></div>
+          <span class="timer">1m ago</span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="img-container">
+          <img src="../assets/images/avatar-angela-gray.webp" alt="" />
+        </div>
+        <div class="msg-container">
+          <h2 class="name">Angela Gray</h2>
+          <p>followed you</p>
+          <div class="red-dot"></div>
+          <span class="timer">5m ago</span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="img-container">
+          <img src="../assets/images/avatar-jacob-thompson.webp" alt="" />
+        </div>
+        <div class="msg-container">
+          <h2 class="name">Jacob Thompson</h2>
+          <p>has joined your group <strong>Chess Club</strong></p>
+          <div class="red-dot"></div>
+          <span class="timer">1 day ago</span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="img-container">
+          <img src="../assets/images/avatar-rizky-hasanuddin.webp" alt="" />
+        </div>
+        <div class="msg-container">
+          <h2 class="name">Rizky Hasanuddin</h2>
+          <p>sent you a private message</p>
+          <span class="timer">5 days ago</span>
+          <div id="msg-box">
+            <p>
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="img-container">
+          <img src="../assets/images/avatar-kimberly-smith.webp" alt="" />
+        </div>
+        <div class="msg-container">
+          <h2 class="name">Kimberly Smith</h2>
+          <p>commented on your picture</p>
+          <span class="timer">1 week ago</span>
+        </div>
+        <div class="img-chess">
+          <img src="../assets/images/image-chess.webp" alt="" />
+        </div>
+      </div>
+      <div class="container">
+        <div class="img-container">
+          <img src="../assets/images/avatar-nathan-peterson.webp" alt="" />
+        </div>
+        <div class="msg-container">
+          <h2 class="name">Nathan Peterson</h2>
+          <p>
+            reacted to your recent post
+            <strong>5 end-game strategies to increase your win rate</strong>
+          </p>
+          <span class="timer">2 weeks ago</span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="img-container">
+          <img src="../assets/images/avatar-anna-kim.webp" alt="" />
+        </div>
+        <div class="msg-container">
+          <h2 class="name">Anna Kim</h2>
+          <p>left the group <strong>Chess Club</strong></p>
+          <span class="timer">2 weeks ago</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
